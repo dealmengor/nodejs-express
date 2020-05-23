@@ -30,7 +30,7 @@ CMD ["node","main.js"]
 #docker images
 
 #Para ejecutar la imagen y hacer forwarded (reenvío) de puertos
-#docker run -p 3000:3000
+#docker run -p 3000:3000 projects/nodejs
 #arquitectura actual: 
 #Sistema Operativo escucha peticiones en el puerto 3000, 
 #esas peticiones se mueven a través del port forwarded creadas en Vagrant,
